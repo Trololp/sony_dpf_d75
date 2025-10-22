@@ -1,5 +1,5 @@
 
-#Description
+# Description
 
  Sony DPF-D75 is digital photo frame. This repository contain
  dumps, tools, scripts and sources, that may help someone hack this thing.
@@ -22,12 +22,12 @@
 
  FW version: 1.26.1.11
 
-#Programming
+# Programming
  You can run custom code on this thing, by loading images from sd card by
  using UART console.
  In order to compile source code use `mipsel-linux-gnu-gcc`
 
- ###type
+ ### type
     - `cd D:/` - set current directory to SD card storage.
     - `read patch.bin 0x80141c18` - overwrite code in clockinfo command
     - `read program.bin 0x802a0000` - free space address
